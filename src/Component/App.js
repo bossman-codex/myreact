@@ -13,7 +13,7 @@ class App extends Component {
     super()
     this.state = {
       key : "86f4b37e944d60d032ef1d3ee1d3031c",
-      base: "http://api.openweathermap.org/data/2.5/",
+      base: "https://api.openweathermap.org/data/2.5/",
       location: "",
       weather: {}
     }
