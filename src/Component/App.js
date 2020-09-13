@@ -28,7 +28,6 @@ class App extends Component {
          weather: response,
          location : ""
         })
-      console.log(response)
           })
     } 
   }
