@@ -34,7 +34,9 @@ main{
     width: 100%;
     display: block;
     padding: 15px; 
-
+    
+    appearance: none;
+    background: none;
     animation: none;
     border: none;
     outline: none;
