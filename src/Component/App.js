@@ -21,7 +21,7 @@ class App extends Component {
   }
     onKeyUp=(event) => {
       
-      if (event.charCode === 13) {
+      if (event.key === "Enter") {
      fetch(`${this.state.base}weather?q=${this.state.location}&units=metric&appid=${this.state.key}`)
     .then(response=>response.json())
     .then(response => {
