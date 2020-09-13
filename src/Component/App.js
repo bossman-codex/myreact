@@ -4,7 +4,6 @@ import './App.css';
 import Lightning from './video/Lightning.mp4'
 import Rain from './video/Rain.mp4'
 import Sky from './video/Sky.mp4'
-import Sunrise from './video/Sunrise .mp4'
 import Drizzle from './video/Drizzle.mp4'
 import Snow from './video/Snow.mp4'
 import Clouds1 from './video/Clouds1.mp4'
@@ -80,8 +79,8 @@ class App extends Component {
                          this.state.weather.weather[0].main === "Thunderstorm" ? Lightning :
                          this.state.weather.weather[0].main === "Clear" ? Sky : 
                          this.state.weather.weather[0].main === "Drrizzle" ? Drizzle:
-                         this.state.weather.weather[0].main === "Snow" ? Snow :  Sunrise
-                         :Sunrise
+                         this.state.weather.weather[0].main === "Snow" ? Snow :  Sky
+                         :Sky
                 }                      
               />
                <div className= "search-box">
