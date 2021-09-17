@@ -59,6 +59,8 @@ class App extends Component {
       
           
        const {location}=this.state
+       
+       console.log(this.state.weather)
           return (
 
   <div className="App">
